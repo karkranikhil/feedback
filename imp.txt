@@ -1,0 +1,31 @@
+how to setup git
+1) git init
+2) git add .
+3) git commit -m "initial commit"
+
+
+installing heroku
+brew install heroku/brew/heroku
+
+steps of heroku for new app run below commands
+1)heroku login
+2)heroku create
+> https://floating-journey-39285.herokuapp.com/ | https://git.heroku.com/floating-journey-39285.git
+    it gives two links
+    1) it give the url of our application in heroku
+    2) second link is our deployment target
+
+3) deploye the code to heroku by following command
+    git remote add heroku https://git.heroku.com/floating-journey-39285.git
+
+    git push remote master
+4) to open the url where app hosted run command
+    heroku open
+5) to check the logs run
+    heroku logs
+6)Re deployment
+    git status
+    git add .
+    git commit -m "changed greetings"
+    git push heroku master
+

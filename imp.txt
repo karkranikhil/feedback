@@ -29,3 +29,13 @@ steps of heroku for new app run below commands
     git commit -m "changed greetings"
     git push heroku master
 
+=======================
+passport setup
+
+npm install --save passport passport-google-oauth20
+
+https://console.developers.google.com
+
+client id - public token - we can share with the public
+client secret - private token we don't want anyone to see this
+
